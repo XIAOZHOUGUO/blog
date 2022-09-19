@@ -1,0 +1,20 @@
+{
+  "name": "hexo-theme-BlueLake",
+  "version": "2.0.0",
+  "description": "Hexo Theme BlueLake, a responsive and simple theme",
+  "repository": "chaooo/hexo-theme-BlueLake",
+  "keywords": [
+    "hexo",
+    "theme",
+    "bluelake"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-json-content": "^2.2.0",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-renderer-jade": "^0.5.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "highlight.js": "^11.5.1"
+  }
+}
