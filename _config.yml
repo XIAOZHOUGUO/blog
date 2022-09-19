@@ -13,8 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://xiaozhouguo.github.io/blog
-root: /blog/
+url: https://xiaozhouguo.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +104,4 @@ theme: BlueLake
 deploy:
   type: git
   repo: git@github.com:XIAOZHOUGUO/XIAOZHOUGUO.github.io.git
-  branch: blog-gh-pages
+  branch: master

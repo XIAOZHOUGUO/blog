@@ -114,8 +114,8 @@ gitalk:
   enable: true
   owner: XIAOZHOUGUO ## Your GitHub ID, e.g. username
   repo: blog ## The repository to store your comments, make sure you're the repo's owner, e.g. gitalk.github.io
-  client_id: 52ec56b78cde1f38514e ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret: 2717c35984cdd38208d922b574fcfcf70f782ed8 ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
+  client_id: 73caaf19e0a3f8e71ddd ## GitHub client ID, e.g. 75752dafe7907a897619
+  client_secret: d4447cc0909c43121bd44ccae5073305021cd6be ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
   admin: XIAOZHOUGUO ## Github repo owner and collaborators, only these guys can initialize github issues.
   language: "zh-CN" ## Language
   pagerDirection: last # Comment sorting direction, available values are last and first.
