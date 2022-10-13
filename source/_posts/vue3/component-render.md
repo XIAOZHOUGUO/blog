@@ -202,7 +202,7 @@ vnode 本质上是用来描述 DOM 的 JavaScript 对象，它在 Vue.js 中可�
 ```javascript
 const vnode = {
   type: 'button',
-  props: { 
+  props: {
     'class': 'btn',
     style: {
       width: '100px',
@@ -231,7 +231,7 @@ const CustomComponent = {
 }
 const vnode = {
   type: CustomComponent,
-  props: { 
+  props: {
     msg: 'test'
   }
 }
@@ -617,4 +617,3 @@ OK，到这里我们这一节的学习也要结束啦，这节课我们主要分
 > packages/runtime-core/src/vnode.ts
 > packages/runtime-core/src/renderer.ts
 > packages/runtime-dom/src/nodeOps.ts
-
