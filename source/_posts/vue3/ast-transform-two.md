@@ -7,10 +7,8 @@ tags:
   - AST
 updated: 2022-10-24 16:00:00
 ---
-
-
-
 [上一篇文章中](https://xiaozhouguo.github.io/2022/08/03/vue3/ast-transform-one/)，我们已经知道了 transform 的核心流程主要有四步：创建 transform 上下文、遍历 AST 节点、静态提升以及创建根代码生成节点。这节课我们接着分析遍历 AST 节点中的 Text 节点的转换函数。
+<!--more-->
 
 ### Text 节点转换函数
 
@@ -254,7 +252,7 @@ const transformIf = createStructuralDirectiveTransform(/^(if|else|else-if)$/, (n
     "codegenNode": undefined,
     "isSelfClosing": false,
     "ns": 0,
-    "props": [{ 
+    "props": [{
       "type": 7,
       "name": "else",
       "exp": undefined,
@@ -493,7 +491,7 @@ function createChildrenCodegenNode(branch, index, context) {
     else {
       return createVNodeCall(context, helper(FRAGMENT), createObjectExpression([keyProperty]), children, `${64 /* STABLE_FRAGMENT */} /* ${PatchFlagNames[64 /* STABLE_FRAGMENT */]} */`, undefined, undefined, true, false, branch.loc)
     }
-  } 
+  }
   else {
     const vnodeCall = firstChild
       .codegenNode;
